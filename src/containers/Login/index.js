@@ -1,5 +1,5 @@
 import React from 'react'
-
+import {Route, Link, Switch } from 'react-router-dom'
 class Login extends React.Component {
     constructor(props) {
         super(props);
@@ -8,6 +8,7 @@ class Login extends React.Component {
         return (
             <div>
                 Login
+                <li><Link to='/home'>Home</Link></li>
             </div>
         )
     }
